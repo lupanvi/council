@@ -70,6 +70,7 @@ class ThreadsController extends Controller
                     $query->where('archived', false);
                 })
             ],
+            //por el momento
             //'g-recaptcha-response' => ['required', $recaptcha]
         ]);
 
